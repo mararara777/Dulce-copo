@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dulce Copo</title>
+  <style>
+    body {
+      background-color: #FFD54F; /* fondo amarillo/mostaza */
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: #4E342E;
+    }
+
+    /* Animación del título */
+    h1 {
+      font-size: 3em;
+      animation: mover 3s infinite alternate;
+      color: #D84315;
+    }
+
+    @keyframes mover {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(20px); }
+      100% { transform: translateX(-20px); }
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 60%;
+      background-color: #FFF3E0;
+    }
+
+    th, td {
+      border: 2px solid #6D4C41;
+      padding: 10px;
+      font-size: 1.2em;
+    }
+
+    th {
+      background-color: #FFB74D;
+    }
+
+    img {
+      width: 250px;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    /* Estilo del ícono de WhatsApp */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .whatsapp:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp img {
+      width: 35px;
+      height: 35px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>🍿 Dulce Copo 🍿</h1>
+
+  <table>
+    <tr>
+      <th>Tipo de Palomitas</th>
+      <th>Precio ($)</th>
+    </tr>
+    <tr>
+      <td>Normales</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Acarameladas</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Con chile</td>
+      <td>20</td>
+    </tr>
+  </table>
+
+  <img src="dulce copo.jpg">
+  <p><strong>¡Endulza tus momentos con Dulce Copo!</strong></p>
+
+  <!-- Ícono de WhatsApp con enlace directo -->
+  <a class="whatsapp" href="https://wa.me/529212556899" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+<audio controls autoplay loop muted>
+  <source src="dulcecopo.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
